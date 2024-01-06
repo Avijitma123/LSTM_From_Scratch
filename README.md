@@ -8,9 +8,7 @@ This repository contains a PyTorch implementation of an LSTM (Long Short-Term Me
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Results](#results)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Model Definition
 
