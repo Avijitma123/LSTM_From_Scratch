@@ -27,7 +27,24 @@ Make sure you have the following dependencies installed:
 - matplotlib
 - numpy
 
+## Usage
 **Clone the repository:**
    ```bash
    git clone https://github.com/Avijitma123/lstm-handwritten-digit-recognition.git
-   cd lstm-handwritten-digit-recognition
+   cd lstm-handwritten-digit-recognition 
+   ```
+   
+## LSTM Model Architecture
+The LSTM model architecture is defined in the LSTM_23 class within the LSTM.py file.
+It consists of an LSTM layer followed by a fully connected layer. The input to the model is a sequence of pixel values representing a digit image.
+
+   **Initialization (__init__) Method:**
+
+         - input_size: The number of expected features in the input.
+         - hidden_size: The number of features in the hidden state of the LSTM.
+         - num_layers: Number of recurrent layers.
+         - num_classes: Number of classes for classification.
+         
+
+
+   
